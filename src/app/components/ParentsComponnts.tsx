@@ -39,7 +39,7 @@ export default function ParentsComponnts() {
       <h1 className="font-bold text-center text-5xl md:text-7xl lg:text-9xl md:text-center py-10 px-10">Featured New Cars</h1>
       <div className=" flex flex-col gap-5 lg:flex-row justify-between items-center ">
         {
-          CarName.map((Car)=>(
+          CarName.map(Car=>(
             
               <ChildComponents 
               Name={Car.Name} 
